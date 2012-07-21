@@ -1,0 +1,61 @@
+@import compass
+
+html
+  background: tan image-url("pokemon-battle.png") 140px 140px no-repeat
+  padding: 10px
+
+
+// Single Sprite from Sprite Map
+// $img: "pokemon-battle.png"
+// $col: 1
+// $row: 1
+// $width: 80px
+// $height: 80px
+// $margin: 10px
+// div
+//   +sprite-img($img, $col, $row, $width, $height, $margin)
+
+
+// Sprite Background Mixin
+$sprite-default-size: 80px // defaults: 32px
+$sprite-image-default-width: $sprite-default-size
+$sprite-image-default-height: $sprite-default-size
+div
+  +sprite-background("pokemon-battle.png")
+  margin: 10px
+
+// By Column
+div
+  float: left
+  &:nth-child(1)
+    +sprite-column(1)
+  &:nth-child(2)
+    +sprite-column(2)
+  &:nth-child(3)
+    +sprite-column(3)
+  &:nth-child(4)
+    +sprite-column(4)
+
+
+// By Row
+// div
+//   &:nth-child(1)
+//     +sprite-row(1)
+//   &:nth-child(2)
+//     +sprite-row(2)
+//   &:nth-child(3)
+//     +sprite-row(3)
+//   &:nth-child(4)
+//     +sprite-row(4)
+
+
+// // By Position
+// div
+//   &:nth-child(1)
+//     +sprite-position(1, 1)
+//   &:nth-child(2)
+//     +sprite-position(1, 2)
+//   &:nth-child(3)
+//     +sprite-position(2, 1)
+//   &:nth-child(4)
+//     +sprite-position(2, 2)

@@ -1,0 +1,32 @@
+// @import compass/reset
+@import compass
+
+// General Formatting
+div
+  +hide-text
+  margin: 20px
+
+
+
+// // Simple Compass Spriting
+// // Problem: Duplicate Dimensions
+// $social-sprite-dimensions: true
+// @import "sprites/social/*.png"
+// +all-social-sprites
+
+
+
+// // Extend the base sprite class, again.
+// // Problem: Duplicate Selectors
+// @import "sprites/social/*.png"
+// .social-sprite
+//   +social-sprite-dimensions(picasa)
+// +all-social-sprites
+
+
+// Ideal Solution
+// Problem: Feature doesn't exist in Compass.
+// Comment on this pull request: https://github.com/chriseppstein/compass/pull/966
+$social-sprite-archetype: picasa
+@import sprites/social-with-archetype
++all-social-sprites

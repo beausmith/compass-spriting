@@ -1,0 +1,61 @@
+// @import compass/reset
+@import compass
+
+// Base Styles
+div
+  +hide-text
+
+
+
+// Separate functions/mixins for each property
+$map: sprite-map("sprites/social/*.png")
+$sprite: twitter
+
+.twitter-background
+  background: sprite-url($map)
+
+.twitter-background-position
+  +sprite-background-position($map, $sprite)
+
+.twitter-dimensions
+  +sprite-dimensions($map, $sprite)
+
+
+
+// Using the +sprite mixin
+$map: sprite-map("sprites/social/*.png")
+$sprite: twitter
+$dimensions: true
+$offset-x: 0
+$offset-y: 0
+.twitter-sprite
+  background: sprite-url($map)
+  +sprite($map, $sprite, $dimensions, $offset-x, $offset-y)
+
+
+
+// Twitter sprite long form
+$map: sprite-map("sprites/social/*.png")
+$sprite: twitter
+.twitter-sprite-long-form
+  background: sprite-url($map)
+  +sprite-background-position($map, $sprite)  
+  $twitter-icon-image: sprite-file($map, $sprite)
+  height: image-height($twitter-icon-image)
+  width: image-width($twitter-icon-image) 
+
+
+
+// OO Sprite Application
+$map: sprite-map("sprites/social/*.png")
+$sprite: twitter
+.#{sprite-map-name($map)}-sprite
+  background: sprite-url($map)
+  &:after
+    content: "Sprite path: #{sprite-file($map, $sprite)}"
+.twitter
+  +sprite-background-position($map, $sprite)  
+  $twitter-icon-image: sprite-file($map, $sprite)
+  height: image-height($twitter-icon-image)
+  width: image-width($twitter-icon-image) 
+

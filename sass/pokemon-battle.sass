@@ -1,0 +1,25 @@
+@import compass
+
+html
+  background: tan
+  padding: 10px
+
+// $sprite-default-margin: 0
+$sprite-default-size: 80px // defaults: 32px
+$sprite-image-default-width: $sprite-default-size
+$sprite-image-default-height: $sprite-default-size
+
+div
+  +sprite-background("pokemon-battle.png")
+  margin: 10px
+  float: left
+
+// Pokemon Battle!
+$pokemon-columns: 25
+$pokemon-rows: 20
+$n: 1
+@for $row from 1 through $pokemon-rows
+  @for $column from 1 through $pokemon-columns
+    div:nth-child(#{$n})
+      +sprite-position($column, $row)
+    $n: $n + 1

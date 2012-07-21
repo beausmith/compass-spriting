@@ -1,0 +1,29 @@
+/* line 5, ../sass/oo.sass */
+div {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 20px;
+}
+
+/* line 45, ../sass/sprites/_social-with-archetype.sass */
+.social-sprite, .social-dribbble, .social-picasa, .social-twitter {
+  background: url('../images/sprites/social-s75739329b7.png') no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-dribbble {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-picasa {
+  background-position: 0 -32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -64px;
+}

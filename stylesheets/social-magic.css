@@ -1,0 +1,71 @@
+/* line 5, ../sass/social-magic.sass */
+a {
+  display: block;
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 58, sprites/social/*.png */
+.social-sprite, .social-dribbble, .social-picasa, .social-twitter {
+  background: url('../images/sprites/social-s75739329b7.png') no-repeat;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-dribbble {
+  background-position: 0 0;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-picasa {
+  background-position: 0 -32px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-twitter {
+  background-position: 0 -64px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 82, sprites/social-magic/*.png */
+.social-magic-sprite, .social-magic-dribbble, .social-magic-picasa, .social-magic-twitter {
+  background: url('../images/sprites/social-magic-s292b325c9c.png') no-repeat;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-magic-dribbble {
+  background-position: 0 -32px;
+  height: 32px;
+  width: 32px;
+}
+/* line 43, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-magic-dribbble:hover, .social-magic-dribbble.dribbble_hover, .social-magic-dribbble.dribbble-hover {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-magic-picasa {
+  background-position: 0 -128px;
+  height: 32px;
+  width: 32px;
+}
+/* line 43, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-magic-picasa:hover, .social-magic-picasa.picasa_hover, .social-magic-picasa.picasa-hover {
+  background-position: 0 -64px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-magic-twitter {
+  background-position: 0 -160px;
+  height: 32px;
+  width: 32px;
+}
+/* line 43, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-magic-twitter:hover, .social-magic-twitter.twitter_hover, .social-magic-twitter.twitter-hover {
+  background-position: 0 -96px;
+}

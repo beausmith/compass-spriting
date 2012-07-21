@@ -1,0 +1,54 @@
+/* line 5, ../sass/social.sass */
+div {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* line 14, ../sass/social.sass */
+.twitter-background {
+  background: url('../images/sprites/social-se3f2af81a1.png');
+}
+
+/* line 17, ../sass/social.sass */
+.twitter-background-position {
+  background-position: 0 -64px;
+}
+
+/* line 20, ../sass/social.sass */
+.twitter-dimensions {
+  height: 32px;
+  width: 32px;
+}
+
+/* line 31, ../sass/social.sass */
+.twitter-sprite {
+  background: url('../images/sprites/social-se3f2af81a1.png');
+  background-position: 0 -64px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 40, ../sass/social.sass */
+.twitter-sprite-long-form {
+  background: url('../images/sprites/social-se3f2af81a1.png');
+  background-position: 0 -64px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 52, ../sass/social.sass */
+.social-sprite {
+  background: url('../images/sprites/social-se3f2af81a1.png');
+}
+/* line 54, ../sass/social.sass */
+.social-sprite:after {
+  content: "Sprite path: /Users/beau/Development/compass-spriting/images/sprites/social/twitter.png";
+}
+
+/* line 56, ../sass/social.sass */
+.twitter {
+  background-position: 0 -64px;
+  height: 32px;
+  width: 32px;
+}

@@ -1,0 +1,41 @@
+// @import compass/reset
+@import compass
+
+// Base Styles
+a
+  display: block
+  +hide-text
+
+// Command line for creating a sprite include partial
+// compass sprite "images/sprites/social/*.png"
+
+
+
+// Simple Compass Spriting
+$social-sprite-dimensions: true
+@import "sprites/social/*.png"
++all-social-sprites
+
+// Specific Sprites (instead of "all social sprites")
+// +social-sprites(twitter picasa)
+
+// Single sprite: Apply sprite styles to a custom class
+// .custom-class-name
+//   +social-sprite(twitter)
+
+// Sprite dimensions only
+// .picasa-sprite-dimentions
+//   +social-sprite-dimensions(picasa)
+
+// Sprite position only
+// .picasa-sprite-position
+//   +social-sprite-position(picasa)
+
+
+// Compass Spriting with Magic Selectors (images ending in _hover, _target, or _active)
+// Related variables…
+// $sprite-selectors: hover, target, active
+// $disable-magic-sprite-selectors: false
+$social-magic-sprite-dimensions: true
+@import "sprites/social-magic/*.png"
++all-social-magic-sprites

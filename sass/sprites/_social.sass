@@ -1,0 +1,71 @@
+@import compass/utilities/sprites/base
+
+// General Sprite Defaults
+// You can override them before you import this file.
+$social-sprite-base-class: ".social-sprite" !default
+$social-sprite-dimensions: false !default
+$social-position: 0% !default
+$social-spacing: 0 !default
+$social-repeat: no-repeat !default
+$social-prefix: "" !default
+$social-clean-up: true !default
+$social-layout: vertical !default
+$social-inline: false !default
+
+// These variables control the generated sprite output
+// You can override them selectively before you import this file.
+
+$social-dribbble-position: $social-position !default
+$social-dribbble-spacing: $social-spacing !default
+$social-dribbble-repeat: $social-repeat !default
+
+$social-picasa-position: $social-position !default
+$social-picasa-spacing: $social-spacing !default
+$social-picasa-repeat: $social-repeat !default
+
+$social-twitter-position: $social-position !default
+$social-twitter-spacing: $social-spacing !default
+$social-twitter-repeat: $social-repeat !default
+
+$social-sprites: sprite-map("sprites/social/*.png", $cleanup: $social-clean-up, $layout: $social-layout, $social_dribbble_position: $social-dribbble-position, $social_dribbble_repeat: $social-dribbble-repeat, $social_dribbble_spacing: $social-dribbble-spacing, $social_picasa_position: $social-picasa-position, $social_picasa_repeat: $social-picasa-repeat, $social_picasa_spacing: $social-picasa-spacing, $social_twitter_position: $social-twitter-position, $social_twitter_repeat: $social-twitter-repeat, $social_twitter_spacing: $social-twitter-spacing)
+
+// All sprites should extend this class
+// The social-sprite mixin will do so for you.
+@if $social-inline
+  #{$social-sprite-base-class}
+    background-image: inline-sprite($social-sprites)
+@else
+  #{$social-sprite-base-class}
+    background: $social-sprites no-repeat
+
+//sass functions to return the dimensions of a sprite image as units
+
+@function social-sprite-width($name)
+  $file: sprite_file($social-sprites, $name)
+  @return image-width($file)
+
+@function social-sprite-height($name)
+  $file: sprite_file($social-sprites, $name)
+  @return image-height($file)
+
+// Use this to set the dimensions of an element
+// based on the size of the original image.
+=social-sprite-dimensions($name)
+  +sprite-dimensions($social-sprites, $name)
+
+// Move the background position to display the sprite.
+=social-sprite-position($name, $offset-x: 0, $offset-y: 0)
+  +sprite-background-position($social-sprites, $name, $offset-x, $offset-y)
+
+// Extends the sprite base class and set the background position for the desired sprite.
+// It will also apply the image dimensions if $dimensions is true.
+=social-sprite($name, $dimensions: $social-sprite-dimensions, $offset-x: 0, $offset-y: 0)
+  @extend #{$social-sprite-base-class}
+  +sprite($social-sprites, $name, $dimensions, $offset-x, $offset-y)
+
+=social-sprites($sprite-names, $dimensions: $social-sprite-dimensions, $prefix: sprite-map-name($social-sprites), $offset-x: 0, $offset-y: 0)
+  +sprites($social-sprites, $sprite-names, $social-sprite-base-class, $dimensions, $prefix, $offset-x, $offset-y)
+
+// Generates a class for each sprited image.
+=all-social-sprites($dimensions: $social-sprite-dimensions, $prefix: sprite-map-name($social-sprites), $offset-x: 0, $offset-y: 0)
+  +social-sprites(dribbble picasa twitter, $dimensions, $prefix, $offset-x, $offset-y)

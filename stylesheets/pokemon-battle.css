@@ -1,0 +1,2515 @@
+/* line 3, ../sass/pokemon-battle.sass */
+html {
+  background: tan;
+  padding: 10px;
+}
+
+/* line 12, ../sass/pokemon-battle.sass */
+div {
+  background: url('../images/pokemon-battle.png') no-repeat;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: 10px;
+  float: left;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(1) {
+  background-position: 0px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(2) {
+  background-position: -80px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(3) {
+  background-position: -160px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(4) {
+  background-position: -240px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(5) {
+  background-position: -320px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(6) {
+  background-position: -400px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(7) {
+  background-position: -480px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(8) {
+  background-position: -560px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(9) {
+  background-position: -640px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(10) {
+  background-position: -720px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(11) {
+  background-position: -800px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(12) {
+  background-position: -880px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(13) {
+  background-position: -960px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(14) {
+  background-position: -1040px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(15) {
+  background-position: -1120px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(16) {
+  background-position: -1200px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(17) {
+  background-position: -1280px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(18) {
+  background-position: -1360px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(19) {
+  background-position: -1440px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(20) {
+  background-position: -1520px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(21) {
+  background-position: -1600px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(22) {
+  background-position: -1680px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(23) {
+  background-position: -1760px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(24) {
+  background-position: -1840px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(25) {
+  background-position: -1920px 0px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(26) {
+  background-position: 0px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(27) {
+  background-position: -80px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(28) {
+  background-position: -160px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(29) {
+  background-position: -240px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(30) {
+  background-position: -320px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(31) {
+  background-position: -400px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(32) {
+  background-position: -480px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(33) {
+  background-position: -560px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(34) {
+  background-position: -640px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(35) {
+  background-position: -720px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(36) {
+  background-position: -800px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(37) {
+  background-position: -880px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(38) {
+  background-position: -960px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(39) {
+  background-position: -1040px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(40) {
+  background-position: -1120px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(41) {
+  background-position: -1200px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(42) {
+  background-position: -1280px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(43) {
+  background-position: -1360px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(44) {
+  background-position: -1440px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(45) {
+  background-position: -1520px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(46) {
+  background-position: -1600px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(47) {
+  background-position: -1680px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(48) {
+  background-position: -1760px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(49) {
+  background-position: -1840px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(50) {
+  background-position: -1920px -80px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(51) {
+  background-position: 0px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(52) {
+  background-position: -80px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(53) {
+  background-position: -160px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(54) {
+  background-position: -240px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(55) {
+  background-position: -320px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(56) {
+  background-position: -400px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(57) {
+  background-position: -480px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(58) {
+  background-position: -560px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(59) {
+  background-position: -640px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(60) {
+  background-position: -720px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(61) {
+  background-position: -800px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(62) {
+  background-position: -880px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(63) {
+  background-position: -960px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(64) {
+  background-position: -1040px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(65) {
+  background-position: -1120px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(66) {
+  background-position: -1200px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(67) {
+  background-position: -1280px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(68) {
+  background-position: -1360px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(69) {
+  background-position: -1440px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(70) {
+  background-position: -1520px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(71) {
+  background-position: -1600px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(72) {
+  background-position: -1680px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(73) {
+  background-position: -1760px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(74) {
+  background-position: -1840px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(75) {
+  background-position: -1920px -160px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(76) {
+  background-position: 0px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(77) {
+  background-position: -80px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(78) {
+  background-position: -160px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(79) {
+  background-position: -240px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(80) {
+  background-position: -320px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(81) {
+  background-position: -400px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(82) {
+  background-position: -480px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(83) {
+  background-position: -560px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(84) {
+  background-position: -640px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(85) {
+  background-position: -720px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(86) {
+  background-position: -800px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(87) {
+  background-position: -880px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(88) {
+  background-position: -960px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(89) {
+  background-position: -1040px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(90) {
+  background-position: -1120px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(91) {
+  background-position: -1200px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(92) {
+  background-position: -1280px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(93) {
+  background-position: -1360px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(94) {
+  background-position: -1440px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(95) {
+  background-position: -1520px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(96) {
+  background-position: -1600px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(97) {
+  background-position: -1680px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(98) {
+  background-position: -1760px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(99) {
+  background-position: -1840px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(100) {
+  background-position: -1920px -240px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(101) {
+  background-position: 0px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(102) {
+  background-position: -80px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(103) {
+  background-position: -160px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(104) {
+  background-position: -240px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(105) {
+  background-position: -320px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(106) {
+  background-position: -400px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(107) {
+  background-position: -480px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(108) {
+  background-position: -560px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(109) {
+  background-position: -640px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(110) {
+  background-position: -720px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(111) {
+  background-position: -800px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(112) {
+  background-position: -880px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(113) {
+  background-position: -960px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(114) {
+  background-position: -1040px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(115) {
+  background-position: -1120px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(116) {
+  background-position: -1200px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(117) {
+  background-position: -1280px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(118) {
+  background-position: -1360px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(119) {
+  background-position: -1440px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(120) {
+  background-position: -1520px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(121) {
+  background-position: -1600px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(122) {
+  background-position: -1680px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(123) {
+  background-position: -1760px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(124) {
+  background-position: -1840px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(125) {
+  background-position: -1920px -320px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(126) {
+  background-position: 0px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(127) {
+  background-position: -80px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(128) {
+  background-position: -160px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(129) {
+  background-position: -240px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(130) {
+  background-position: -320px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(131) {
+  background-position: -400px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(132) {
+  background-position: -480px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(133) {
+  background-position: -560px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(134) {
+  background-position: -640px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(135) {
+  background-position: -720px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(136) {
+  background-position: -800px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(137) {
+  background-position: -880px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(138) {
+  background-position: -960px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(139) {
+  background-position: -1040px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(140) {
+  background-position: -1120px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(141) {
+  background-position: -1200px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(142) {
+  background-position: -1280px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(143) {
+  background-position: -1360px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(144) {
+  background-position: -1440px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(145) {
+  background-position: -1520px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(146) {
+  background-position: -1600px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(147) {
+  background-position: -1680px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(148) {
+  background-position: -1760px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(149) {
+  background-position: -1840px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(150) {
+  background-position: -1920px -400px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(151) {
+  background-position: 0px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(152) {
+  background-position: -80px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(153) {
+  background-position: -160px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(154) {
+  background-position: -240px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(155) {
+  background-position: -320px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(156) {
+  background-position: -400px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(157) {
+  background-position: -480px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(158) {
+  background-position: -560px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(159) {
+  background-position: -640px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(160) {
+  background-position: -720px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(161) {
+  background-position: -800px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(162) {
+  background-position: -880px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(163) {
+  background-position: -960px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(164) {
+  background-position: -1040px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(165) {
+  background-position: -1120px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(166) {
+  background-position: -1200px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(167) {
+  background-position: -1280px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(168) {
+  background-position: -1360px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(169) {
+  background-position: -1440px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(170) {
+  background-position: -1520px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(171) {
+  background-position: -1600px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(172) {
+  background-position: -1680px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(173) {
+  background-position: -1760px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(174) {
+  background-position: -1840px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(175) {
+  background-position: -1920px -480px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(176) {
+  background-position: 0px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(177) {
+  background-position: -80px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(178) {
+  background-position: -160px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(179) {
+  background-position: -240px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(180) {
+  background-position: -320px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(181) {
+  background-position: -400px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(182) {
+  background-position: -480px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(183) {
+  background-position: -560px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(184) {
+  background-position: -640px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(185) {
+  background-position: -720px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(186) {
+  background-position: -800px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(187) {
+  background-position: -880px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(188) {
+  background-position: -960px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(189) {
+  background-position: -1040px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(190) {
+  background-position: -1120px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(191) {
+  background-position: -1200px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(192) {
+  background-position: -1280px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(193) {
+  background-position: -1360px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(194) {
+  background-position: -1440px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(195) {
+  background-position: -1520px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(196) {
+  background-position: -1600px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(197) {
+  background-position: -1680px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(198) {
+  background-position: -1760px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(199) {
+  background-position: -1840px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(200) {
+  background-position: -1920px -560px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(201) {
+  background-position: 0px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(202) {
+  background-position: -80px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(203) {
+  background-position: -160px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(204) {
+  background-position: -240px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(205) {
+  background-position: -320px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(206) {
+  background-position: -400px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(207) {
+  background-position: -480px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(208) {
+  background-position: -560px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(209) {
+  background-position: -640px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(210) {
+  background-position: -720px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(211) {
+  background-position: -800px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(212) {
+  background-position: -880px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(213) {
+  background-position: -960px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(214) {
+  background-position: -1040px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(215) {
+  background-position: -1120px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(216) {
+  background-position: -1200px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(217) {
+  background-position: -1280px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(218) {
+  background-position: -1360px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(219) {
+  background-position: -1440px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(220) {
+  background-position: -1520px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(221) {
+  background-position: -1600px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(222) {
+  background-position: -1680px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(223) {
+  background-position: -1760px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(224) {
+  background-position: -1840px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(225) {
+  background-position: -1920px -640px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(226) {
+  background-position: 0px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(227) {
+  background-position: -80px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(228) {
+  background-position: -160px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(229) {
+  background-position: -240px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(230) {
+  background-position: -320px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(231) {
+  background-position: -400px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(232) {
+  background-position: -480px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(233) {
+  background-position: -560px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(234) {
+  background-position: -640px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(235) {
+  background-position: -720px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(236) {
+  background-position: -800px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(237) {
+  background-position: -880px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(238) {
+  background-position: -960px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(239) {
+  background-position: -1040px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(240) {
+  background-position: -1120px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(241) {
+  background-position: -1200px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(242) {
+  background-position: -1280px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(243) {
+  background-position: -1360px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(244) {
+  background-position: -1440px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(245) {
+  background-position: -1520px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(246) {
+  background-position: -1600px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(247) {
+  background-position: -1680px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(248) {
+  background-position: -1760px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(249) {
+  background-position: -1840px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(250) {
+  background-position: -1920px -720px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(251) {
+  background-position: 0px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(252) {
+  background-position: -80px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(253) {
+  background-position: -160px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(254) {
+  background-position: -240px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(255) {
+  background-position: -320px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(256) {
+  background-position: -400px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(257) {
+  background-position: -480px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(258) {
+  background-position: -560px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(259) {
+  background-position: -640px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(260) {
+  background-position: -720px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(261) {
+  background-position: -800px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(262) {
+  background-position: -880px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(263) {
+  background-position: -960px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(264) {
+  background-position: -1040px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(265) {
+  background-position: -1120px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(266) {
+  background-position: -1200px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(267) {
+  background-position: -1280px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(268) {
+  background-position: -1360px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(269) {
+  background-position: -1440px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(270) {
+  background-position: -1520px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(271) {
+  background-position: -1600px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(272) {
+  background-position: -1680px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(273) {
+  background-position: -1760px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(274) {
+  background-position: -1840px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(275) {
+  background-position: -1920px -800px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(276) {
+  background-position: 0px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(277) {
+  background-position: -80px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(278) {
+  background-position: -160px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(279) {
+  background-position: -240px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(280) {
+  background-position: -320px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(281) {
+  background-position: -400px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(282) {
+  background-position: -480px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(283) {
+  background-position: -560px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(284) {
+  background-position: -640px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(285) {
+  background-position: -720px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(286) {
+  background-position: -800px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(287) {
+  background-position: -880px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(288) {
+  background-position: -960px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(289) {
+  background-position: -1040px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(290) {
+  background-position: -1120px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(291) {
+  background-position: -1200px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(292) {
+  background-position: -1280px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(293) {
+  background-position: -1360px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(294) {
+  background-position: -1440px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(295) {
+  background-position: -1520px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(296) {
+  background-position: -1600px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(297) {
+  background-position: -1680px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(298) {
+  background-position: -1760px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(299) {
+  background-position: -1840px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(300) {
+  background-position: -1920px -880px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(301) {
+  background-position: 0px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(302) {
+  background-position: -80px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(303) {
+  background-position: -160px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(304) {
+  background-position: -240px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(305) {
+  background-position: -320px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(306) {
+  background-position: -400px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(307) {
+  background-position: -480px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(308) {
+  background-position: -560px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(309) {
+  background-position: -640px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(310) {
+  background-position: -720px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(311) {
+  background-position: -800px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(312) {
+  background-position: -880px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(313) {
+  background-position: -960px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(314) {
+  background-position: -1040px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(315) {
+  background-position: -1120px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(316) {
+  background-position: -1200px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(317) {
+  background-position: -1280px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(318) {
+  background-position: -1360px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(319) {
+  background-position: -1440px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(320) {
+  background-position: -1520px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(321) {
+  background-position: -1600px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(322) {
+  background-position: -1680px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(323) {
+  background-position: -1760px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(324) {
+  background-position: -1840px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(325) {
+  background-position: -1920px -960px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(326) {
+  background-position: 0px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(327) {
+  background-position: -80px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(328) {
+  background-position: -160px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(329) {
+  background-position: -240px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(330) {
+  background-position: -320px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(331) {
+  background-position: -400px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(332) {
+  background-position: -480px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(333) {
+  background-position: -560px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(334) {
+  background-position: -640px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(335) {
+  background-position: -720px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(336) {
+  background-position: -800px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(337) {
+  background-position: -880px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(338) {
+  background-position: -960px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(339) {
+  background-position: -1040px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(340) {
+  background-position: -1120px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(341) {
+  background-position: -1200px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(342) {
+  background-position: -1280px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(343) {
+  background-position: -1360px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(344) {
+  background-position: -1440px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(345) {
+  background-position: -1520px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(346) {
+  background-position: -1600px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(347) {
+  background-position: -1680px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(348) {
+  background-position: -1760px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(349) {
+  background-position: -1840px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(350) {
+  background-position: -1920px -1040px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(351) {
+  background-position: 0px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(352) {
+  background-position: -80px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(353) {
+  background-position: -160px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(354) {
+  background-position: -240px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(355) {
+  background-position: -320px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(356) {
+  background-position: -400px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(357) {
+  background-position: -480px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(358) {
+  background-position: -560px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(359) {
+  background-position: -640px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(360) {
+  background-position: -720px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(361) {
+  background-position: -800px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(362) {
+  background-position: -880px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(363) {
+  background-position: -960px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(364) {
+  background-position: -1040px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(365) {
+  background-position: -1120px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(366) {
+  background-position: -1200px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(367) {
+  background-position: -1280px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(368) {
+  background-position: -1360px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(369) {
+  background-position: -1440px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(370) {
+  background-position: -1520px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(371) {
+  background-position: -1600px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(372) {
+  background-position: -1680px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(373) {
+  background-position: -1760px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(374) {
+  background-position: -1840px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(375) {
+  background-position: -1920px -1120px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(376) {
+  background-position: 0px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(377) {
+  background-position: -80px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(378) {
+  background-position: -160px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(379) {
+  background-position: -240px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(380) {
+  background-position: -320px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(381) {
+  background-position: -400px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(382) {
+  background-position: -480px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(383) {
+  background-position: -560px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(384) {
+  background-position: -640px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(385) {
+  background-position: -720px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(386) {
+  background-position: -800px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(387) {
+  background-position: -880px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(388) {
+  background-position: -960px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(389) {
+  background-position: -1040px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(390) {
+  background-position: -1120px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(391) {
+  background-position: -1200px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(392) {
+  background-position: -1280px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(393) {
+  background-position: -1360px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(394) {
+  background-position: -1440px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(395) {
+  background-position: -1520px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(396) {
+  background-position: -1600px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(397) {
+  background-position: -1680px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(398) {
+  background-position: -1760px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(399) {
+  background-position: -1840px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(400) {
+  background-position: -1920px -1200px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(401) {
+  background-position: 0px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(402) {
+  background-position: -80px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(403) {
+  background-position: -160px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(404) {
+  background-position: -240px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(405) {
+  background-position: -320px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(406) {
+  background-position: -400px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(407) {
+  background-position: -480px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(408) {
+  background-position: -560px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(409) {
+  background-position: -640px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(410) {
+  background-position: -720px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(411) {
+  background-position: -800px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(412) {
+  background-position: -880px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(413) {
+  background-position: -960px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(414) {
+  background-position: -1040px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(415) {
+  background-position: -1120px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(416) {
+  background-position: -1200px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(417) {
+  background-position: -1280px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(418) {
+  background-position: -1360px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(419) {
+  background-position: -1440px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(420) {
+  background-position: -1520px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(421) {
+  background-position: -1600px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(422) {
+  background-position: -1680px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(423) {
+  background-position: -1760px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(424) {
+  background-position: -1840px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(425) {
+  background-position: -1920px -1280px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(426) {
+  background-position: 0px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(427) {
+  background-position: -80px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(428) {
+  background-position: -160px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(429) {
+  background-position: -240px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(430) {
+  background-position: -320px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(431) {
+  background-position: -400px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(432) {
+  background-position: -480px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(433) {
+  background-position: -560px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(434) {
+  background-position: -640px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(435) {
+  background-position: -720px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(436) {
+  background-position: -800px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(437) {
+  background-position: -880px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(438) {
+  background-position: -960px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(439) {
+  background-position: -1040px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(440) {
+  background-position: -1120px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(441) {
+  background-position: -1200px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(442) {
+  background-position: -1280px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(443) {
+  background-position: -1360px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(444) {
+  background-position: -1440px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(445) {
+  background-position: -1520px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(446) {
+  background-position: -1600px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(447) {
+  background-position: -1680px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(448) {
+  background-position: -1760px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(449) {
+  background-position: -1840px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(450) {
+  background-position: -1920px -1360px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(451) {
+  background-position: 0px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(452) {
+  background-position: -80px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(453) {
+  background-position: -160px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(454) {
+  background-position: -240px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(455) {
+  background-position: -320px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(456) {
+  background-position: -400px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(457) {
+  background-position: -480px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(458) {
+  background-position: -560px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(459) {
+  background-position: -640px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(460) {
+  background-position: -720px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(461) {
+  background-position: -800px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(462) {
+  background-position: -880px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(463) {
+  background-position: -960px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(464) {
+  background-position: -1040px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(465) {
+  background-position: -1120px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(466) {
+  background-position: -1200px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(467) {
+  background-position: -1280px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(468) {
+  background-position: -1360px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(469) {
+  background-position: -1440px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(470) {
+  background-position: -1520px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(471) {
+  background-position: -1600px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(472) {
+  background-position: -1680px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(473) {
+  background-position: -1760px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(474) {
+  background-position: -1840px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(475) {
+  background-position: -1920px -1440px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(476) {
+  background-position: 0px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(477) {
+  background-position: -80px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(478) {
+  background-position: -160px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(479) {
+  background-position: -240px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(480) {
+  background-position: -320px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(481) {
+  background-position: -400px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(482) {
+  background-position: -480px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(483) {
+  background-position: -560px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(484) {
+  background-position: -640px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(485) {
+  background-position: -720px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(486) {
+  background-position: -800px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(487) {
+  background-position: -880px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(488) {
+  background-position: -960px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(489) {
+  background-position: -1040px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(490) {
+  background-position: -1120px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(491) {
+  background-position: -1200px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(492) {
+  background-position: -1280px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(493) {
+  background-position: -1360px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(494) {
+  background-position: -1440px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(495) {
+  background-position: -1520px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(496) {
+  background-position: -1600px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(497) {
+  background-position: -1680px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(498) {
+  background-position: -1760px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(499) {
+  background-position: -1840px -1520px;
+}
+
+/* line 23, ../sass/pokemon-battle.sass */
+div:nth-child(500) {
+  background-position: -1920px -1520px;
+}
