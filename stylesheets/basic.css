@@ -1,0 +1,32 @@
+/* line 66, sprites/basic/*.png */
+.basic-sprite, .basic-dribbble, .basic-facebook, .basic-instagram, .basic-twitter {
+  background: url('../images/sprites/basic-s82a62272de.png') no-repeat;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.basic-dribbble {
+  background-position: 0 0;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.basic-facebook {
+  background-position: 0 -96px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.basic-instagram {
+  background-position: 0 -64px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ree-1.8.7-2011.12/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.basic-twitter {
+  background-position: 0 -32px;
+  height: 32px;
+  width: 32px;
+}
